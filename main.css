@@ -25,4 +25,14 @@
     max-width: 900px;
     height: auto;
 }
+.overlay-image {
+    position: absolute;
+    opacity: 0; 
+    z-index: 1; 
+}
+
+.bton1.btn5:hover .overlay-image,
+.bton1.btn6:hover .overlay-image {
+    opacity: 1; 
+}
 

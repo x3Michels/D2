@@ -18,7 +18,7 @@ menuButtons.forEach((menuButton, index) => {
     });
 });
 
-function (menuIndex, buttonIndex) {
+function showButtonContent(menuIndex, buttonIndex) {
     switch (menuIndex) {
         case 0: // Menú 1
             switch (buttonIndex) {
