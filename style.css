@@ -1,0 +1,71 @@
+#myVideo1 {
+  background: url(./assets/background/fondogeneral.gif);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: url(./assets/background/dota2header.png);
+  background-position: center;
+}
+
+.heroall {
+  color: white;
+  font-size: 3vw;
+  font-family: Reaver, serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 112%
+}
+
+.heroall1 {
+  color: white;
+  font-family: Reaver, serif;
+  font-size: 1.5vw;
+  text-align: center;
+  line-height: 152%
+}
+
+.card-general {
+  display: flex;
+  gap: 50px;
+  columns: center;
+  padding: 50px;
+}
+
+.card {
+  background: #191c29;
+}
+
+.card::before {
+  content: "";
+  width: 104.4%;
+  height: 102.4%;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    var(--rotate)
+    , #24db04, #d8f902 43%, #4e00c2);
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}

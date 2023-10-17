@@ -1,0 +1,28 @@
+.menu-boton {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 4em;
+    text-align: center; 
+    line-height: 40px; 
+    background-color: white;
+}
+
+.menu-boton:hover {
+    background-color: green; 
+}
+
+.bton-cont {
+    display: none;
+}
+
+.bton1, .bton2, .bton3 {
+    margin: 1px;
+    cursor: pointer;
+}
+.video1 {
+    width: 50%;     
+    max-width: 900px;
+    height: auto;
+}
+
